@@ -1,5 +1,10 @@
 # Azure FastAPI Web API – Deploy via GitHub Actions & ACR
 
+![Status do Deploy](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml/badge.svg?branch=master)
+![Azure](https://img.shields.io/badge/Azure-WebApp-blue)
+![Docker](https://img.shields.io/badge/Docker-Container-green)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
 Este projeto implementa uma API Python com FastAPI, empacotada via Docker e publicada em um Azure Web App usando Azure Container Registry (ACR). O pipeline de CI/CD é automatizado com GitHub Actions, permitindo entregas contínuas de novas versões a cada push.
 
 ***
@@ -76,7 +81,7 @@ Acesse:
 ## 👨‍💻 Autor
 
 **Julio Okuda**  
-[LinkedIn](https://www.linkedin.com/in/julio-okuda/)
+[LinkedIn](https://www.linkedin.com/in/juliookuda/)
 
 ***
 

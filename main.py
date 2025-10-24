@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-  return{"mensagem":"Olá, deploy da api com Azure Web Service realizada com sucesso!!!"}
+  return{"mensagem":"Olá, deploy da api com Azure Web Service com CI/CD realizada com sucesso!!!"}
