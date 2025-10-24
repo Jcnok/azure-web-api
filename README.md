@@ -1,6 +1,7 @@
 # Azure FastAPI Web API – Deploy via GitHub Actions & ACR
 
-![Status do Deploy](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml/badge.svghttps://img.shields.io/badgehttps://img.shields.io/badge/Dockerhttps://img.shields.io/badge/license implementa uma API Python com FastAPI, empacotada via Docker e publicada em um Azure Web App usando Azure Container Registry (ACR). O pipeline de CI/CD é automatizado com GitHub Actions, permitindo entregas contínuas de novas versões a cada push.
+![Status do Deploy](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml/badge.svghttps://img.shields.io/badgehttps://img.shields.io/badge/Dockerhttps://img.shields.io/badge/license) 
+implementa uma API Python com FastAPI, empacotada via Docker e publicada em um Azure Web App usando Azure Container Registry (ACR). O pipeline de CI/CD é automatizado com GitHub Actions, permitindo entregas contínuas de novas versões a cada push.
 
 ***
 
@@ -9,7 +10,7 @@
 - **Pipeline:** GitHub Actions automatiza o build, push da imagem para o ACR e o deploy para o Azure Web App.
 - **Triggers:** Qualquer push na branch principal (`master`) inicia o fluxo de automação e atualização do app.
 - **Status:**  
-  ![Status do Deploy](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml/badge.svg?branch=master acima reflete em tempo real o sucesso/falha do último workflow de deploy!_
+  [![Status do Deploy](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml/badge.svg)](https://github.com/Jcnok/azure-web-api/actions/workflows/deploy.yml)  
 
 ***
 
