@@ -3,7 +3,7 @@ name: Build and Deploy to Azure Web App
 on:
   push:
     branches:
-      - master
+      - sua_branch_aqui
 
 jobs:
   build-and-deploy:
