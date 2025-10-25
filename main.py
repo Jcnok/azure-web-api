@@ -9,7 +9,7 @@ start_time = time.time()
 def read_root():
   return{"mensagem":"Deploy da FastAPI com Azure Web Service com CI/CD",
          "status":"Sucesso!!!",
-         "Detalhes":"Necessário ativar a implantação contínua"}
+         "Detalhes":"Necessário ativar a implantação contínua para funcionar corretamente"}
 
 @app.get("/health")
 def health_check(): 
